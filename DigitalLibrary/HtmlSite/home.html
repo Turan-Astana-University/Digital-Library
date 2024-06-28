@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фоновое изображение</title>
+  <link rel="stylesheet" href="css/togle-menu-syles.css">
+  <link rel="stylesheet" href="css/myshelf.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet" type="text/css">
+  <link href="css/buttons-style.css" rel="stylesheet" type="text/css">
+  <link href="css/links_myshelf.css" rel="stylesheet" type="text/css">
+  <link href="css/book_cards.css" rel="stylesheet" type="text/css">
+  <link href="css/modile-header.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/mobile-header-style.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="container-menu">
+        <div class="menu">
+          <img src="css/images/TAU2.png" class="logo">
+          <div class="menu-options">
+            <div class="link-options">
+              <img class="icon-menu" src="css/images/icons-menu/home-icon.png"></img>
+              <a class="link"  style="color: grey;" href="home.html">Home</a>
+            </div>
+            <div class="link-options">
+              <img class="icon-menu" src="css/images/icons-menu/search-icon.png"></img>
+              <a class="link"  style="color: grey;" href="/search.html">Search</a>
+            </div>
+            <div class="link-options">
+              <img class="icon-menu" src="css/images/icons-menu/myshelf-icon.png"></img>
+              <a class="link"  style="color: grey;" href="/myshelf.html">My shelf</a>
+            </div>
+            <div class="link-options">
+              <img class="icon-menu" src="css/images/icons-menu/contr-icon.png"></img>
+              <a class="link"  style="color: grey;" href="/contribute.html">Contribute</a>
+            </div>
+          </div>
+          <div class="menu-options-sub">
+            <a class="link-sub-opt">Search</a>
+            <a class="link-sub-opt">Search</a>
+            <a class="link-sub-opt">Search</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="container-content">
+        <header class="mobile-header">
+          <button class="menu-mobile-toggle" id="menu-mobileToggle">☰</button>
+          <nav class="menu-mobile" id="menu-mobile">
+            <div class="menu">
+              <img src="css/images/TAU2.png" class="logo">
+              <div class="menu-options">
+                <div class="link-options">
+                  <img class="icon-menu" src="css/images/icons-menu/home-icon.png"></img>
+                  <a class="link"  style="color: grey;" href="home.html">Home</a>
+                </div>
+                <div class="link-options">
+                  <img class="icon-menu" src="css/images/icons-menu/search-icon.png"></img>
+                  <a class="link"  style="color: grey;" href="/search.html">Search</a>
+                </div>
+                <div class="link-options">
+                  <img class="icon-menu" src="css/images/icons-menu/myshelf-icon.png"></img>
+                  <a class="link"  style="color: grey;" href="/myshelf.html">My shelf</a>
+                </div>
+                <div class="link-options">
+                  <img class="icon-menu" src="css/images/icons-menu/contr-icon.png"></img>
+                  <a class="link"  style="color: grey;" href="/contribute.html">Contribute</a>
+                </div>
+              </div>
+              <div class="menu-options-sub">
+                <a class="link-sub-opt">Search</a>
+                <a class="link-sub-opt">Search</a>
+                <a class="link-sub-opt">Search</a>
+              </div>
+
+            </div>
+        </nav>
+
+        <div class="mobile-header-slp">
+          <div class="header-mobile-1">
+            <div class="button-group-mobile">
+
+
+
+              <input type="search" name="s" placeholder="Search" class="search-mobile">
+
+              <input type="image" src="css/images/Search.png" class="find-mobile">
+
+              <img src="css/images/Line 1.png" class="line1-mobile">
+              <a class="scan-mobile" href="*" type="image"><img src="css/images/barcode scanner.png" class="scan-img-mobile"></a>
+            </div>
+
+            <div class="border2-mobile">
+              <button class="menu-button" onclick="toggleMenu_lang()">
+              <img src="css/images/Translate.png" class="lan-mobile">
+              </button>
+              <div class="dropdown-menu" id="dropdownMenu-lang">
+                <a href="#">Опция 4</a>
+                <a href="#">Опция 5</a>
+                <a href="#">Опция 6</a>
+            </div>
+            </div>
+
+            <div class="border4-mobile">
+              <button class="menu-button" onclick="toggleMenu_profile()">
+              <img src="css/images/Ellipse 10.png" width="45" height="45" class="foto-mobile">
+              </button>
+              <div class="dropdown-menu" id="dropdownMenu-profile">
+                <a href="#">Опция 1</a>
+                <a href="#">Опция 2</a>
+                <a href="#">Опция 3</a>
+            </div>
+            </div>
+
+          </div>
+       </div>
+        </header>
+        <script src="js/mobile-head-adaptive.js"></script>
+        <script src="js/togle-manu-funcs.js"></script>
+
+        <div class="header">
+          <div class="header1">
+            <div class="button-group">
+
+              <select class="All">
+                <option disabled selected> All </option>
+                <option></option>
+              </select>
+
+              <input type="search" name="s" placeholder="Search" class='search'>
+
+              <input type="image" src="css/images/Search.png" class="find">
+
+              <img src="css/images/Line 1.png" class="line1">
+              <a class="scan" href="*" type="image"><img src="css/images/barcode scanner.png"></a>
+            </div>
+
+            <div class="border2">
+              <img src="css/images/Translate.png" class="lan">
+              <select class="lang">
+                <option disabled selected>Lang</option>
+              </select>
+            </div>
+
+            <div class="border3">
+              <img src="css/images/Time.png" class="clock">
+              <time id="currentTime" class="time"></time>
+              <script>
+                var timeElement = document.getElementById('currentTime');
+                setInterval(function() {
+                  var currentTime = new Date();
+                  timeElement.textContent = currentTime.toLocaleTimeString();
+                }, 1000);
+              </script>
+              <img src="css/images/Vector.png" class="kalen">
+              <input type="date" class="data">
+            </div>
+
+            <div class="border4">
+              <img src="css/images/Ellipse 10.png" width="45" height="45" class="foto">
+              <p>
+                <select class="user">
+                  <option disabled selected>User</option>
+                </select>
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="underheader">
+        <div class="afterheader">
+
+        	<div class="fall">
+        		<input checked="" type="radio" name="respond" id="desktop">
+        			<article id="slider">
+        					<input checked="" type="radio" name="slider" id="switch1">
+        					<input type="radio" name="slider" id="switch2">
+        					<input type="radio" name="slider" id="switch3">
+        					<input type="radio" name="slider" id="switch4">
+        					<input type="radio" name="slider" id="switch5">
+        				<div id="slides">
+        					<div id="overflow">
+        						<div class="image">
+        							<article><img src="1.jpg" width="547px" height="233px"></article>
+        							<article><img src="2.jpg" width="547px" height="233px"></article>
+        							<article><img src="3.jpg" width="547px" height="233px"></article>
+        							<article><img src="4.jpg" width="547px" height="233px"></article>
+        							<article><img src="5.jpg" width="547px" height="233px"></article>
+        						</div>
+                    <div id="active">
+                      <label for="switch1"></label>
+                      <label for="switch2"></label>
+                      <label for="switch3"></label>
+                      <label for="switch4"></label>
+                      <label for="switch5"></label>
+                    </div>
+        					</div>
+        				</div>
+        				<div id="controls">
+        					<label for="switch1"></label>
+        					<label for="switch2"></label>
+        					<label for="switch3"></label>
+        					<label for="switch4"></label>
+        					<label for="switch5"></label>
+        				</div>
+
+        			</article>
+        	</div>
+
+
+
+
+        <div class="bok">
+                      <div class="zag">
+                                <p class="tek">News Rack</p>
+                      </div>
+                      <div class="fg">
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k1'>
+                <img src="Frame 19.png">
+            </div>
+
+          </div>
+          </div>
+
+
+</div>
+<div class="afterheader2">
+<div class="forgm"><h1>Good Morning</h1></div>
+<div class="fors">
+<div class="forrfy">Recommended for You</div>
+<div class="forsa"><button class="showall">Show All</div>
+</div>
+
+        <div class="list1">
+
+                      <div class="fg2">
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+            <div class='k2'>
+                <img src="Frame 19.png">
+            </div>
+
+          </div>
+          </div>
+          <div class="fors">
+          <div class="forrfy">Recent Readings</div>
+          <div class="forsa"><button class="showall">Show All</div>
+          </div>
+          <div class="list2">
+
+                        <div class="fg3">
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+              <div class='k2'>
+                  <img src="Frame 19.png">
+              </div>
+
+            </div>
+            </div>
+</div>
+  </div>
+</div>
+  </div>
+      </div>
+      <script src="js/links-style.js"></script>
+      <script>
+          document.querySelector('.fg').addEventListener('wheel', function(event) {
+            if (event.deltaY !== 0) {
+              event.preventDefault();
+              this.scrollLeft += event.deltaY;
+            }
+          });
+        </script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+           let currentIndex = 1;
+           const totalSlides = 5;
+           const intervalTime = 4000; // 4 seconds
+
+           function showNextSlide() {
+             currentIndex++;
+             if (currentIndex > totalSlides) {
+               currentIndex = 1;
+             }
+             document.getElementById(`switch${currentIndex}`).checked = true;
+           }
+
+           setInterval(showNextSlide, intervalTime);
+         });
+
+        </script>
+        <script>
+            document.querySelector('.fg2').addEventListener('wheel', function(event) {
+              if (event.deltaY !== 0) {
+                event.preventDefault();
+                this.scrollLeft += event.deltaY;
+              }
+            });
+          </script>
+          <script>
+              document.querySelector('.fg3').addEventListener('wheel', function(event) {
+                if (event.deltaY !== 0) {
+                  event.preventDefault();
+                  this.scrollLeft += event.deltaY;
+                }
+              });
+            </script>
+            <script>var href = window.location.href;
+              var links = document.getElementsByClassName("link");
+              
+              for (var i = 0; i < links.length; i++) {
+                  if (links[i].href == href) {
+                      links[i].style.color = "black";
+                  }
+                  
+              }</script>
+</body>
+
+</html>

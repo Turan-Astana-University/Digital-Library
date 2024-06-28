@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: url('backg.jpg') no-repeat center;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+#sidbac {
+  background: #F3F3F7;
+  width: 98%;
+  height: 90%;
+  gap: 0px;
+  top: 5%;
+  left: 1%;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#sid {
+  background: url('ph1.jpg');
+  width: 16%;
+  height: 92%;
+  gap: 0px;
+  top: 5%;
+  left: 1%;
+  border: None;
+  border-radius:  10px;
+  opacity: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#tau {
+  background: url('tau1.png');
+  background-size: cover;
+  position: absolute;
+  width: 8%;
+  height: 16%;
+  left: 5%;
+  top: 3%;
+  z-index: 3;
+}
+
+.cardochka {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  width: 35vw; /* увеличил ширину карточки */
+  height: 50vh;
+  padding: 20px;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  z-index: 30;
+  display: flex; /* добавил flex-контейнер */
+}
+
+.column {
+  flex: 1; /* распределяем пространство между колонками */
+  margin-right: 20px; /* увеличил отступ между колонками */
+}
+
+.cardochka label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.cardochka input[type="text"],
+.cardochka select {
+  width: 30vw;
+  margin-bottom: 1vh;
+   border-radius: 10px;
+   border: none;
+
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.norm {
+    font-weight: bold;
+}
+#input11{
+
+  width: 20vw;
+  height: 15%;
+}
+#input22{
+  width: 20vw;
+  height: 15%;
+}
+#input33{
+  width: 20vw;
+  height: 32%;
+}
+#select1{
+margin-top: 20px;
+  width: 10vw;
+  height: 4vh;
+}
+#select2{
+  width: 10vw;
+  height: 4vh;
+}
+
+  .BUT {
+    margin-top: 2vh;
+    background-color: #f4683c;
+    color: white;
+    width: 10vw;
+    height:6vh;
+    border:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+  }
+.norma{
+  margin-top: 7vh;
+  margin-bottom: 1vh;
+}
+.selectori {
+  margin-top: 3vh; /* Изменяем отступ сверху */
+}
+.cardochka input[type="checkbox"] {
+  margin-left: 10px; /* Отступ справа от чекбокса */
+}
+
+
+
+
+
+     .nadpisSPRAVA{
+font-Size:2vw;
+margin-top: -3vh;
+font-weight: 700;
+       width: 40vw;
+     left:40vw;
+       position: absolute;
+       z-index: 30;
+     }
+.nadpisSPRAVAsnizu{
+  font-Size:1.1vw;
+  margin-top: 16vh;
+  font-weight: 400;
+         width: 40vw;
+       left:40vw;
+         position: absolute;
+         z-index: 30;
+
+}

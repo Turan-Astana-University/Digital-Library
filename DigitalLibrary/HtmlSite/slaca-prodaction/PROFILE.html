@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="PROFILE.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="intro">
+
+  <div class="container1">
+    <div class="tabs">
+      <button class="tab-button active" data-tab="account-settings">Account Setting</button>
+      <button class="tab-button" data-tab="login-security">Login & Security</button>
+      <button class="tab-button" data-tab="notifications">Notifications</button>
+      <button class="tab-button" data-tab="interface">Interface</button>
+    </div>
+    <div class="tab-content" id="account-settings">
+
+
+
+
+
+
+              <div class="container2">
+
+      <div class="PrPicture ">
+   <p id="IZB" >Your Profile Picture</p>
+           <img src="Negr.jpg" class="imagek1">
+           <button class="IZB" id ="A22">Upload New Photo</button>
+
+
+      </div>
+        <div class="PheolTable ">
+
+     <img src="kytap.png" class="imagek">   <p class="imag1" >Readings</p>
+     <p class="imag2">20</p>
+
+           </div>
+           <div class="OrangeTable ">
+
+        <img src="givememoney.png" class="imagek">   <p class="imag1" >Contribution</p>
+        <p class="imag2" >20</p>
+
+              </div>
+                 </div>
+                     <div class="containerOUT">
+                 <div class="container22">
+                     <div id="ada">
+                         <p id="IZy">Full Name</p>
+                         <input class="vvod" type="text" id="name" name="name" maxlength="30" placeholder="Тут ваше имя" >
+                     </div>
+                     <div>
+                         <p id="IZy"> Email Id </p>
+                         <input class="vvod" type="text" id="name" name="name" maxlength="30" placeholder="Тут ваш ID" >
+                     </div>
+                     <div>
+                         <p id="IZy1">RegisterNumber </p>
+                         <input class="vvod" type="text" id="name" name="name" maxlength="11" placeholder="Тут ваш номер регистрации">
+                     </div>
+                     <div>
+                         <p id="IZy1">Phone Number </p>
+                         <input class="vvod" type="text" id="name" name="name" maxlength="11" placeholder="Тут ваш номер" >
+                     </div>
+                 </div>
+                 <p id="IZy2">Bio</p>
+
+                 <textarea class="vvod1" id="name" name="name" placeholder="Введите текст" maxlength="1000"></textarea>
+
+ </div>
+  <button class="button12">Update Profile</button>
+  <button class="reset-button">Reset</button>
+
+</div>
+
+    <div class="tab-content" id="login-security" style="display:none;">
+      <h2 class ="zagi">Настройки безопасности аккаунта</h2>
+        <div class="security-settings">
+          <div class="security-item">
+            <img src="12.png" class="icon">
+            <p>Email добавлен: <span class="check-icon">✔</span> 15.02.2011</p>
+            <a href="#" class="edit-link">Изменить</a>
+          </div>
+          <div class="security-item">
+            <img src="key1.png" class="icon">
+            <p>Пароль добавлен: <span class="check-icon">✔</span> 18.02.2019</p>
+            <a href="#" class="edit-link">Изменить</a>
+          </div>
+          <div class="security-item">
+            <img src="dada1.png" class="icon">
+
+            <p>Аккаунт не привязан к номеру мобильного телефона.</p>
+            <button class="link-button">Привязать</button>
+          </div>
+          <div class="security-item">
+            <img src="net1.png" class="icon">
+
+            <p>Двухфакторная аутентификация не подключена</p>
+            <button class="link-button">Подключить</button>
+          </div>
+        </div>
+          <img src="kota.gif" class= "kota" >
+
+
+      </div>
+    <div class="tab-content" id="notifications" style="display:none;">
+      <h2>Notifications</h2>
+      <!-- Your form and other content here -->
+    </div>
+    <div class="tab-content" id="interface" style="display:none;">
+      <h2>Interface</h2>
+      <!-- Your form and other content here -->
+    </div>
+  </div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

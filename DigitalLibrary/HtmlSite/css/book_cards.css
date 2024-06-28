@@ -1,0 +1,88 @@
+.container0 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ /* grid-template-rows: 100px 100px;*/
+  gap: 20px;
+
+}
+.item1 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 208px;
+    height: 195px;
+    padding: 13px;
+    columns: 2;
+}
+
+.book-cards {
+    flex-direction: column;
+    display: flex;
+    padding-left:49px;
+    padding-right:49px;
+    overflow-y: auto;
+}
+@media (max-width: 800px) {
+    .container0 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.left-part-card {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+.right-part-card {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+.cardbook-minidesc {
+    font-size: 10px;
+    padding: 0px;
+    margin: 4px;
+}
+.buttons-2 {
+width: 100%;
+height: 100%;
+columns: 1;
+padding-top: 30px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.gray-but {
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #A0A0A0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.red-but {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    color: #F76B56;
+    background-color: #FFFFFF;
+    border: 1px solid #F76B56;
+    font-size: 15px;
+}
+.green-but {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    background: #42BB4E;
+    border: none;
+    font-size: 15px;
+}
+

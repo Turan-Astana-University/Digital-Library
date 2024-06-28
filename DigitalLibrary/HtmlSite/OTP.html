@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фоновое изображение</title>
+    <link rel="stylesheet" href="OTP.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="card">
+            <img src="css/images/TAU2.png" class="tau_logo">
+            <p>Verification</p>
+            <p class="bb">Chech your E-mail for OTP</p>
+            <form class="registration-form">
+
+                        <div class="form-group">
+                          <div class="otp">
+<div class="code"> <input type="text" maxlength="1"></div>
+<div class="code"><input type="text" maxlength="1"></div>
+<div class="code"><input type="text" maxlength="1"></div>
+<div class="code"><input type="text" maxlength="1"></div>
+<div class="code"><input type="text" maxlength="1"></div>
+</div>
+                        </div>
+
+
+                        <button type="submit">Login</button>
+                        <div class="form-actions" id="1">
+                            <div class="link">
+                                New user?<a href="https://html5css.ru/html/">Register here</a>
+                            </div>
+                            <div class="link">
+                                User as Guest
+                            </div>
+                        </div>
+            </form>
+
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+  <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              const inputs = document.querySelectorAll('.otp input');
+              inputs.forEach((input, index) => {
+                  input.addEventListener('input', () => {
+                      if (input.value.length === 1 && index < inputs.length - 1) {
+                          inputs[index + 1].focus();
+                      }
+                  });
+                  input.addEventListener('keydown', (e) => {
+                      if (e.key === "Backspace" && index > 0 && input.value.length === 0) {
+                          inputs[index - 1].focus();
+                      }
+                  });
+              });
+          });
+      </script>
+
+</body>
+</html>

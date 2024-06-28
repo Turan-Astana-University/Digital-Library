@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <div class="header">
+        <div class="button-group">
+
+          <select class="All">
+            <option disabled selected > All </option>
+            <option></option>
+          </select>
+
+         <input type="search" name="s" placeholder="Search" class= 'search'>
+
+         <input type="image" src="css/images/Search.png" class="find">
+
+          <img src="css/images/Line 1.png" class="line1">
+    <a class="scan" href="*" type="image"><img src="css/images/barcode scanner.png"></a>
+    </div>
+
+      <div class="border2">
+        <img src="css/images/Translate.png" class="lan">
+        <select class="lang">
+        <option disabled selected>Lang</option>
+        </select>
+        </div>
+
+    <div class="border3">
+      <img src="css/images/Time.png" class="clock">
+      <time id="currentTime" class="time"></time>
+      <script>
+        var timeElement = document.getElementById('currentTime');
+        setInterval(function () {
+          var currentTime = new Date();
+          timeElement.textContent = currentTime.toLocaleTimeString();
+        }, 1000);
+      </script>
+      <img src="css/images/Vector.png" class="kalen">
+      <input type="date" class="data">
+      </div>
+
+
+        <div class="border4">
+          <img src="css/images/Ellipse 10.png" width="45" height="45" class="foto">
+          <p><select class="user">
+              <option disabled selected>User</option>
+              </select></p>
+        </div>
+
+      </div>
+</body>
+</html>

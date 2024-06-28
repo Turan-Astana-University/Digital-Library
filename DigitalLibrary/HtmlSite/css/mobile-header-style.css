@@ -1,0 +1,183 @@
+@media (min-width: 800px) {
+    .mobile-header-slp {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+}
+@media (max-width: 800px) {
+    .button-group-mobile {
+        display: flex;
+        width: 184px;
+        height: 41px;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+      .header-mobile-1{
+        display: flex;
+        padding-left: 8px;
+        align-items: center;
+        justify-content: center;
+        /* position: absolute; */
+        top: 0px;
+        height: 41px;
+      }
+      .search-mobile {
+        border: 0;
+        height: 22px;
+        width: 124px;
+        margin-top: 9px;
+        justify-content: center;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+      .find-mobile {
+        text-align: right;
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+        padding-right: 3px;
+        position: relative;
+        left: 0px;
+      }
+      .scan-mobile{
+        justify-content: right;
+        padding-top: 10px;
+        text-align: right;
+        position: relative;
+        left: 0px;
+        padding-left: 6px;
+      }
+      .All {
+        border: 0 ;
+        padding: 12px;
+        text-align: center;
+        height:49px ;
+        width: 102px;
+        margin-right: 21px ;
+        top: 87px ;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;;
+        background-color: #F7F7FA;
+      }
+      select{
+        appearance: none;
+        overflow: hidden;
+        background: url("css/images/Polygon 1.png") no-repeat right ;
+      
+      }
+      .line1-mobile{
+        height: 33px;
+        justify-content: center;
+        padding-top: 4px;
+        position: relative;
+        left: 0px;
+        width: 1px;
+      }
+      .border2-mobile{
+        display: flex;
+        height: 41px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        background-color: #fff;
+        margin-left: 19px;
+        top: 36px;
+        width: 42px;
+        justify-content: center;
+        align-items: center;
+    
+      }
+      .lang-mobile{
+        border: 0;
+        margin-top: 12px;
+        height: 22px;
+        width: 91px;
+        padding-left: 13px;
+        font-size: 20px;
+        justify-content: center;
+      
+      
+      }
+      .lan-mobile{
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+      }
+      .border3-mobile{
+          display: flex; /* Выравнивание кнопок в ряд */
+          width: 200px;
+          height: 46px ;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 30px; /* Скругленные углы */
+          background-color: #fff; /* Фон для группы кнопок */
+          margin-left: 28px;
+          top: 36px;
+      
+        justify-content: center;
+        text-align: center;
+      
+      }
+      .border4-mobile{
+          display: flex; /* Выравнивание кнопок в ряд */
+          border-radius: 30px; /* Скругленные углы */
+          background-color: #fff; /* Фон для группы кнопок */
+          margin-left: 8px;
+       
+          align-items: center;
+      }
+      @font-face {
+          font-family: 'Digital-7';
+          src: url('fonts/digital-7.ttf') format('truetype');
+      }
+      
+      .data-mobile{
+        display: flex;
+        font-family: 'Digital-7', sans-serif;
+        width: 125px;
+        height: 15px;
+        margin-top:14px;
+        border: 0 ;
+        position: relative;
+      }
+      .clock{
+        width: 19px;
+        height: 19px;
+      
+        margin-top: 14px ;
+      }
+      .time{
+        width:109px;
+        height: 19px;
+        justify-content: center;
+        margin-top: 14px ;
+      font-family: 'Digital-7', sans-serif;
+      }
+      .kalen{
+        padding-left: 25px;
+        width: 19px;
+        height: 19px;
+        justify-content: center;
+        margin-top: 14px ;
+      }
+      .foto-mobile{
+        margin: 3px;
+        width: 45px;
+        height: 45px;
+      }
+      .user-mobile{
+        padding-left: 18px;
+        padding-right: 3px;
+        padding-bottom: 8px;
+        width: 90px;
+        height: 27px;
+        border: 0;
+        font-size: 20px;
+        font-weight: 400;
+      
+      }
+    .scan-img-mobile {
+        width: 20px;
+        height: 20px;
+    }
+}
