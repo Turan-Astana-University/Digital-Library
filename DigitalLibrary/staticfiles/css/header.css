@@ -1,0 +1,195 @@
+a {
+  text-decoration: none;
+}
+.button-group {
+
+  display: flex; /* Выравнивание кнопок в ряд */
+  width: 480px;
+  height: 49px ;
+  border-radius: 40px; /* Скругленные углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Фон для группы кнопок */
+
+
+}
+.header1{
+  display: flex;
+  padding-left: 40px ;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+   top: 40px;
+}
+.search {
+  border: 0 ;
+  height:24px ;
+  width: 229px;
+  margin-top: 12px;
+  justify-content: center;
+}
+.find {
+  align-items: rigth;
+  justify-content: rigth;
+  text-align: right;
+  width: 20px;
+  height: 20px;
+  padding-top:15px;
+  padding-right: 9px;
+  position: relative;
+  left: 40px;
+}
+.scan{
+  justify-content: right;
+  padding-top:14px ;
+  text-align: right;
+  position: relative;
+  left: 40px;
+  padding-left: 11px;
+
+
+}
+.All {
+  border: 0 ;
+  padding: 12px;
+  text-align: center;
+  height:49px ;
+  width: 102px;
+  margin-right: 21px ;
+  top: 87px ;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;;
+  background-color: #F7F7FA;
+}
+select{
+  appearance: none;
+  overflow: hidden;
+  background: url("css/images/Polygon 1.png") no-repeat right ;
+
+}
+.line1{
+  height :33px;
+  justify-content: center;
+  padding-top: 8px;
+  position: relative;
+  left: 40px;
+}
+.border2{
+    display: flex; /* Выравнивание кнопок в ряд */
+    width: 170px;
+    height: 47px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px; /* Скругленные углы */
+
+    background-color: #fff; /* Фон для группы кнопок */
+    margin-left: 28px;
+    top: 36px;
+}
+.lang{
+  border: 0;
+  margin-top: 12px;
+  height: 22px;
+  width: 91px;
+  padding-left: 10px;
+  font-size: 20px;
+  justify-content: center;
+
+
+}
+.lan{
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  padding-top: 14px;
+  padding-left: 25px;
+}
+.border3{
+    display: flex; /* Выравнивание кнопок в ряд */
+    width: 200px;
+    height: 46px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px; /* Скругленные углы */
+    background-color: #fff; /* Фон для группы кнопок */
+    margin-left: 28px;
+    top: 36px;
+
+  justify-content: center;
+  text-align: center;
+
+}
+.border4{
+    display: flex; /* Выравнивание кнопок в ряд */
+    width: 150px;
+    height: 50px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px; /* Скругленные углы */
+
+    background-color: #fff; /* Фон для группы кнопок */
+    margin-left: 28px;
+    top: 36px;
+    align-items: center;
+
+}
+@font-face {
+    font-family: 'Digital-7';
+    src: url('fonts/digital-7.ttf') format('truetype');
+}
+
+.data{
+  display: flex;
+  font-family: 'Digital-7', sans-serif;
+  width: 125px;
+  height: 15px;
+  margin-top:14px;
+  border: 0 ;
+  position: relative;
+}
+.clock{
+  width: 19px;
+  height: 19px;
+
+  margin-top: 14px ;
+}
+.time{
+  width:109px;
+  height: 19px;
+  justify-content: center;
+  margin-top: 14px ;
+font-family: 'Digital-7', sans-serif;
+}
+.kalen{
+  padding-left: 25px;
+  width: 19px;
+  height: 19px;
+  justify-content: center;
+  margin-top: 14px ;
+}
+.foto{
+  margin: 3px;
+  width: 45px;
+  height: 45px;
+}
+.user{
+  padding-left: 18px;
+  padding-right: 3px;
+  padding-bottom: 8px;
+  width: 90px;
+  height: 27px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+@media (max-width: 800px) {
+  .header-0{
+    height: 0%;
+  }
+  .header1{
+    display: none;
+  }
+  
+  
+}
+
+
+

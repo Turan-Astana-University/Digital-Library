@@ -1,5 +1,6 @@
 from django.db import models
 from authors.models import Author
+from categories.models import Category
 # Create your models here.
 
 class Book(models.Model):
@@ -10,6 +11,7 @@ class Book(models.Model):
     # rating
     # parent = models.ForeignKey("self", null=True, blank=True, on_delete=models.CASCADE)
     author = models.ManyToManyField(Author, null=True, blank=True)
+    categories = models.ManyToManyField(Category, null=True, blank=True)
 
 
 class BookElement(models.Model):

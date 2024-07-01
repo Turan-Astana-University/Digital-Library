@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: url('backg.jpg') no-repeat center;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+#sidbac {
+  background: #F3F3F7;
+  width: 98%;
+  height: 90%;
+  gap: 0px;
+  top: 5%;
+  left: 1%;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#sid {
+  background: url('ph1.jpg');
+  width: 16%;
+  height: 92%;
+  gap: 0px;
+  top: 5%;
+  left: 1%;
+  border: None;
+  border-radius:  10px;
+  opacity: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#tau {
+  background: url('tau1.png');
+  background-size: cover;
+  position: absolute;
+  width: 8%;
+  height: 16%;
+  left: 5%;
+  top: 3%;
+  z-index: 3;
+}
+
+#but12,
+#but13 {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  position: absolute;
+left:18%;
+  z-index: 5;
+  padding-top:8vh;
+  cursor: pointer;
+
+}
+#but13 {
+  width: 14PX;
+  height:10px ;
+  padding-top:20.4vh;
+cursor: pointer;
+}
+#but12 {
+  color: black;
+  font-size:2vh;
+  margin-left: 1.7vw; /* Добавляем небольшое расстояние между текстом и изображением */
+}
+
+
+
+
+.container1 {
+
+  width: 100%;
+  height: 71%;
+  gap: 0px;
+  top: 14%;
+  left: 10%;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  position: absolute;
+  display: block;
+  z-index: 3;
+  overflow: hidden; /* чтобы скрыть границы контейнера и показать скролл только внутри .container2 */
+  overflow-x: auto; /* добавлено для горизонтальной прокрутки */
+    overflow-y: auto; }
+
+.container2 {
+  display: flow-root;
+  flex-direction: column; /* расположить элементы вертикально */
+  gap: 10px;
+  padding: 10px; /* добавить небольшой внутренний отступ */
+height: 80%;
+padding-top:  2%;
+/
+}
+.container3{
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(auto-fill, 60%);
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 1000px; /* установите фиксированную ширину для горизонтальной прокрутки */
+
+ color:black;
+}
+
+.item {
+  text-align: center;
+  background-color:;
+  font-size: 100%;
+  padding: 10px; /* добавить небольшой внутренний отступ */
+
+  border: none;
+  z-index: 130;
+  height: 12vh;
+width:max;
+}
+.imagebook{
+  max-width: 60%;
+  height: auto;
+
+}
+.checkbox-group {
+  display: flex; /* Размещаем метку и чекбокс в строку */
+  align-items: center; /* Выравниваем элементы по вертикали */
+  margin-bottom: 6px; /* Добавляем небольшой отступ между группами чекбоксов */
+}
+
+.checkbox-group label {
+  margin-right: 5px; /* Отступ справа от метки */
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-top: 0.2vw; /* Сдвигаем чекбокс немного вниз */
+}
+
+.in-shelf-button {
+  background-color: #1de81c; /* зеленый цвет фона */
+  color: white; /* белый цвет текста */
+  border: none; /* убрать границу */
+  padding: 10px 20px; /* внутренние отступы */
+  font-size: 16px; /* размер шрифта */
+  border-radius: 5px; /* скругление углов */
+  cursor: pointer; /* курсор при наведении */
+  margin: 0.7vw;
+
+}
+
+.in-shelf-button:hover {
+  background-color: darkgreen; /* более темный зеленый при наведении */
+}
+.image-text-container {
+
+  display: flex; /* Размещаем изображение и текст в строку */
+
+}
+.imagek {
+  margin-left: 14%; /* Отступ справа от изображения */
+
+     margin-top: -7%;
+
+width: 20%; /* Ограничиваем максимальную ширину изображения */
+  height: 40%; /* Автоматическая высота для сохранения пропорций */
+}
+.imagek1 {
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  cursor: pointer; /* курсор при наведении */
+  width: 30%; /* Ограничиваем максимальную ширину изображения */
+    height: 30%;
+  align-items: center; /* Выравниваем элементы по вертикали */
+  justify-content: flex-start; /* Выравниваем содержимое по левому краю */
+  margin: 1.7vw; /* Добавляем отступ вокруг контейнера */
+}
+.textik {
+  font-size: 16px; /* Размер шрифта текста */
+  color: #333; /* Цвет текста */
+}
+.Reead{
+  background-color: white; /* более темный зеленый при наведении */
+  color: red; /* белый цвет текста */
+  border-color: red; /* убрать границу */
+  padding: 10px 20px; /* внутренние отступы */
+  font-size: 16px; /* размер шрифта */
+  border-radius: 5px; /* скругление углов */
+  cursor: pointer; /* курсор при наведении */
+  margin-top:30%;
+}
+#zagalov{margin:0;
+  height: 2.2vh;
+  box-shadow: none;
+  background: none  ;
+    margin-top: 0.3vw;
+position: sticky;
+top:0;
+z-index: 100;
+
+}
+#IZB{
+
+ font-size:120%;
+  text-decoration: none;
+  position: absolute;
+top:10%;
+left:20%;
+  z-index: 5;
+}
+.zagst{ font-weight: 600;}
+.item1{
+
+  background-color:lightgrey;
+
+
+
+  border: none;
+  height: 0.1px;
+width:max;
+}
+@media (max-width: 800px) {
+  .container1{
+
+
+  }
+}

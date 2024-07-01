@@ -1,0 +1,36 @@
+.menu1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #F3F3F7;
+    border-bottom: 1px solid #ddd;
+    width: 90%;
+    overflow-x: auto;
+}
+.menu1 a {
+    text-decoration: none;
+    color: #666;
+    font-weight: normal;
+
+    padding-left: 49px;
+    padding-right: 49px;
+    transition: color 0.3s, font-weight 0.3s;
+}
+.menu1 a:hover {
+    color: #000;
+}
+.menu1 a.active {
+    color: #000;
+    font-weight: bold;
+}
+.part-1 {
+padding-top: 10%;
+}
+.my-bibl {
+padding-left: 49px;
+}
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('fonts/digital-7.ttf') format('truetype');
+}

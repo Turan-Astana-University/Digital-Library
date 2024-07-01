@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: url('backg.jpg') no-repeat center;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+#sidbac {
+  background: #F3F3F7;
+  width: 98%;
+  height: 90%;
+  gap: 0px;
+  top: 5%;
+  left: 1%;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#sid {
+  background: url('ph1.jpg');
+  width: 16%;
+  height: 92%;
+  gap: 0px;
+  top: 5%;
+  left: 1%;
+  border: None;
+  border-radius: 10px;
+  opacity: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#tau {
+  background: url('tau1.png');
+  background-size: cover;
+  position: absolute;
+  width: 8%;
+  height: 16%;
+  left: 5%;
+  top: 3%;
+  z-index: 3;
+}
+
+
+
+.container1 {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  height: 71%;
+  gap: 0px;
+  top: 17vh;
+  left: 19vw;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  position: absolute;
+  display: block;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(auto-fill, 100%);
+  width: 100%;
+  height: 25%;
+}
+
+.container22 {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  height: 30%;
+}
+.containerOUTIK{
+  display: flex;
+  padding: 1%;
+  gap:10%;
+  height: 50%;
+}
+.containerOUT {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  height: 100%;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+
+.DADADA{
+
+ margin-left: 3%;
+ border:4px solid black;
+ height: 50%; /* Высота 50% от родительского элемента */
+
+ padding: 3%;
+}
+.inline-container {
+  display: flex;
+  align-items: center;
+
+  width: 90%;
+
+ margin-left: 3%;
+ border-bottom  : 3px solid black;
+}
+
+.IZyO {
+
+  font-weight: bold; /* Делает текст жирным */
+
+}
+
+.IZy2 {
+ margin-left: 3%;
+
+
+}
+
+
+/* Таблица вкладок */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  color: #333;
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #f60;
+  font-weight: bold;
+  color: #f60;
+}
+
+.tab-button:not(.active):hover {
+  background-color: #f0f0f0;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.PrPicture {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.imagek1 {
+  position: relative;
+  bottom: 10%;
+  height: auto;
+  border-radius: 3vw;
+  width: 40%;
+  cursor: pointer;
+  margin: 3%;
+}
+
+.in-button {
+  text-decoration: underline;
+  width: 20%;
+  height: 10%;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+
+
+.imag1 {
+  font-size: 100%;
+}
+
+.imag2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.imagek {
+  width: 40%;
+  height: auto;
+  border-radius: 7px;
+}
+
+.PheolTable, .OrangeTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.PheolTable {
+  background-color: #ff7043;
+}
+
+.OrangeTable {
+  background-color: #9575cd;
+}
+
+.vvod1 {
+  width: 97%;
+  height: 100%;
+  padding: 0.2vw;
+  background-color: lightgrey;
+  margin-left: 0.6vw;
+  border-radius: 10px;
+  border: 2px solid grey;
+  line-height: 1;
+  resize: none;
+}
+
+/* Стилизация кнопки */
+.button12 {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 2%;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.button12:hover {
+  background-color: #ff8000;
+}
+
+/* Стилизация кнопки Reset */
+.reset-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+.imageSl {
+    width: 50%; /* или любое другое значение */
+    height: auto;
+}
+.IZy3{
+   margin-left: 3%;
+   font-size: 16 ;
+   font-weight: BOLD;
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container1 {
+    width: 80%;
+    left: 5%;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 20%;
+    left: 5%;
+  }
+
+
+  #IZB {
+    font-size: 78%;
+  }
+
+  .in-button {
+    font-size: 12px;
+    margin-bottom: 100%;
+  }
+
+  .imag1 {
+    font-size: 100%;
+  }
+
+  .imag2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .imagek {
+    width: 40%;
+    height: auto;
+    border-radius: 7px;
+  }
+  .imagek1 {
+    width: 60%;
+    height: auto;
+ margin-top: 20%;
+  }
+
+  .PheolTable, .OrangeTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  #IZB {
+    margin-left: 0;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 90%;
+  }
+
+  .zagi {
+    margin-left: 10%;
+  }
+
+  .vvod1 {
+    width: 90%;
+  }
+
+  .tab-button {
+    font-size: 85%;
+  }
+
+  .tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+}

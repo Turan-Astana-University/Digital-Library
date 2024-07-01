@@ -1,0 +1,41 @@
+.forcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.forfon{
+  position: absolute;;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ z-index: 2;
+ background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+}
+.forcard{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  gap:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.forbutton{
+}
+
+.forbut{
+  background-color:#F27851;
+  border:0;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+}

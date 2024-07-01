@@ -1,0 +1,68 @@
+header {
+    background-color: #F3F3F7;
+    color: black;
+    padding: 10px;
+    height: 7%;
+    display: flex;
+}
+
+.menu-mobile-toggle {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: orange;
+    margin: 5px;
+    padding: 5px;
+}
+.menu-mobile-toggle:active{
+    background-color: lightgrey;
+}
+.menu-mobile {
+    position: fixed;
+    top: 72px;
+    left: -250px; /* Изначально скрываем меню за левым краем экрана */
+    width: 250px;
+    height: 90%;
+    background-color: #fff;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+.menu-mobile ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-mobile ul li {
+    border-bottom: 1px solid #444;
+}
+
+.menu-mobile ul li a {
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
+.menu-mobile ul li a:hover {
+    background-color: #444;
+}
+
+/* Меню открывается при добавлении класса active */
+.menu-mobile.active {
+    left: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+@media (min-width: 800px) {
+    .menu-mobile-toggle {
+        display: none;
+        height: 0px;
+    }
+}

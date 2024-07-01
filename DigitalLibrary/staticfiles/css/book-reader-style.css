@@ -1,0 +1,223 @@
+.book-reader-container {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    background-color: #4C4C4C;
+    border-radius: 0px 0px 1px 1px;
+    columns: 1;
+    flex-direction: column;
+
+}
+
+.book-reader-head {
+    display: flex;
+    width: 100%;
+    height: 12.5%;
+    align-items: center;
+    
+}
+.book-reader-head-1 {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    gap: 10%;
+}
+.book-reader-head-2 {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    .book-reader-head-2 {
+        display: none;
+        width: 0px;
+    }
+}
+.book-reader-head-3 {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center
+}
+
+.back-to-but {
+    padding-left: 15px;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.back-to-but-mobile {
+    display: none;
+    height: 0px;
+}
+.back-text {
+    color: #fff;
+}
+@media (max-width: 800px) {
+    .back-to-but {
+        display: none;
+        width: 0px;
+        ;
+    }
+    .back-to-but-mobile {
+        padding-left: 15px;
+        width: 96%;
+        height: 100%;
+        display: flex;
+        background-color: #4C4C4C;
+        gap:5px;
+    }
+}
+.book-img-head-reader {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+
+}
+.img-book-reader {
+    width: 48px;
+    height: 48px;
+}
+.name-book-reader {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.book-swaper-buttons {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: flex-end;
+}
+.book-swaper-buttons-mobile {
+    display: none;
+    width: 100%;
+    height: 0%;
+}
+@media (max-width: 800px) {
+    .book-swaper-buttons-mobile {
+        display: flex;
+        height: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.book-reader-head-buttons {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+@media (max-width: 800px) {
+    .book-reader-head-buttons {
+        gap: 7px;
+    }
+}
+
+/* **************************************************************************** */  
+[id="heart"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  [for="heart"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 1.5em;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+  }
+  
+  [for="heart"]:hover {
+    color: grey;
+  }
+  
+  [for="heart"]::selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [for="heart"]::moz-selection {
+    color: none;
+    background: transparent;
+  }
+  
+  [id="heart"]:checked + label {
+    color: #e2264d;
+    will-change: font-size;
+    animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+  }
+  
+  
+  
+  @keyframes heart {0%, 17.5% {font-size: 0;}}
+/* **************************************************************************** */  
+
+.full-screen-but {
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    background-color: transparent; 
+    border-color: #fff;
+}
+.view-but {
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    background-color: transparent; 
+    border-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.book-content {
+    margin-top: 3px;
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll;
+    display: flex;
+    justify-content: center;
+
+}
+.header-0 {
+    height: 15%;
+}
+.book-pages {
+    width: 942px;
+    height: 715px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 800px) {
+    .book-pages {
+        height: 1200px;
+        flex-direction: column;
+    }
+}
+.page-1 {
+    background-image: url("images/book-pages/page1.png");
+    width: 100%;
+    height: 98%;
+    background-size: cover;
+}
+.page-2 {
+    background-image: url("images/book-pages/page2.png");
+    width: 100%;
+    height: 98%;
+    background-size: cover;
+}
